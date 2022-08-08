@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'font1';
+  src: url('./font2.otf') format('otf'),
+    url('./font1.otf') format('otf');
+  font-weight: 600;
+  font-style: normal;
+}
+
 .hello {
     color: red;
+    background: url('./icon.png');
+    font-family: 'font1';
   }
+
+  
